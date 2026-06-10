@@ -1,0 +1,6 @@
+{
+  "name": "Tawsila",
+  "description": "Tawsila - Simple ride-hailing client-driver connector without heavy maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

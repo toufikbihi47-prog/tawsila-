@@ -9,6 +9,7 @@ import InAppCall from './components/InAppCall';
 import { getCurrentUser, setCurrentUser as dbSetCurrentUser, getTrips, saveTrips, updateUserRating } from './lib/db';
 import { Heart } from 'lucide-react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 const STORAGE_KEYS = {
   CURRENT_TRIP: 'tawseela_current_trip',
@@ -321,6 +322,7 @@ export default function App() {
         />
       )}
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 }
